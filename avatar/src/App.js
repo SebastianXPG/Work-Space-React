@@ -2,6 +2,7 @@ import "./App.css";
 import contacts from "./contacts";
 import Card from "./components/Card";
 
+
 function createCard(contact) {
   // return (
   //   <Card
