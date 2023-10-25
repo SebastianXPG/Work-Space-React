@@ -1,5 +1,41 @@
+.App{
+    background-color: rgba(145, 171, 184, 0.658);
+}
+
 .emoji-library{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: rgb(249, 249, 249);
+    flex-wrap: wrap;
+}
+
+.emoji{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 270px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-emoji{
+    font-size: 30px;
+}
+
+.title-emoji{
+    color: rgb(46, 206, 206);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content-description{
+    display: contents;
+    justify-content: center;
+}
+
+.description-emoji{
+    color: black;
+    padding: 0px 15px 10px 15px;
 }

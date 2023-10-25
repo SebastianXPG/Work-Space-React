@@ -4,11 +4,13 @@ import React from 'react';
 function Emoji({ name, emoji, description }) {
   return (
     <div className="emoji">
-      <span role="img" aria-label={name}>
+      <span className='logo-emoji' role="img" aria-label={name}>
         {emoji}
       </span>
-      <p>{name}</p>
-      <p>{description}</p>
+      <p className='title-emoji'>{name}</p>
+      <div className='content-description'>
+      <p className='description-emoji'>{description}</p>
+      </div>
     </div>
   );
 }

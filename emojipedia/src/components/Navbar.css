@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.Title{
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(46, 206, 206);
+    /* color: white; */
+}
+
